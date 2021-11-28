@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Memo-->
         <scene sceneID="2v5-ub-gmd">
             <objects>
                 <tableViewController id="jdB-k7-mnZ" sceneMemberID="viewController">
@@ -30,7 +30,11 @@
                             <outlet property="delegate" destination="jdB-k7-mnZ" id="ktd-Yv-bZ9"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="zEM-Qb-sML"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Memo" id="zEM-Qb-sML">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="wdo-Jz-0fY"/>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zuZ-G3-uCm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -40,8 +44,8 @@
         <scene sceneID="PAI-QK-MdU">
             <objects>
                 <navigationController id="mGg-MP-mkK" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WD9-2j-ZgB">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="WD9-2j-ZgB">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
