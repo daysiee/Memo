@@ -10,7 +10,7 @@
         <!--Memo-->
         <scene sceneID="2v5-ub-gmd">
             <objects>
-                <tableViewController id="jdB-k7-mnZ" sceneMemberID="viewController">
+                <tableViewController id="jdB-k7-mnZ" customClass="MemoListTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="WUo-Vb-XOR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -15,6 +15,7 @@
 		E2067246274A90A5007A5EEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2067244274A90A5007A5EEC /* LaunchScreen.storyboard */; };
 		E2067249274A90A5007A5EEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2067248274A90A5007A5EEC /* main.m */; };
 		E20672502753CE55007A5EEC /* Model in Resources */ = {isa = PBXBuildFile; fileRef = E206724F2753CE55007A5EEC /* Model */; };
+		E20672532753D498007A5EEC /* MemoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20672522753D498007A5EEC /* MemoListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		E2067247274A90A5007A5EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2067248274A90A5007A5EEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E206724F2753CE55007A5EEC /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
+		E20672512753D498007A5EEC /* MemoListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoListTableViewController.h; sourceTree = "<group>"; };
+		E20672522753D498007A5EEC /* MemoListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				E2067236274A90A3007A5EEC /* SceneDelegate.h */,
 				E2067237274A90A3007A5EEC /* SceneDelegate.m */,
 				E206723C274A90A3007A5EEC /* Main.storyboard */,
+				E20672512753D498007A5EEC /* MemoListTableViewController.h */,
+				E20672522753D498007A5EEC /* MemoListTableViewController.m */,
 				E2067242274A90A5007A5EEC /* Assets.xcassets */,
 				E2067244274A90A5007A5EEC /* LaunchScreen.storyboard */,
 				E2067247274A90A5007A5EEC /* Info.plist */,
@@ -152,6 +157,7 @@
 				E2067235274A90A3007A5EEC /* AppDelegate.m in Sources */,
 				E2067238274A90A3007A5EEC /* SceneDelegate.m in Sources */,
 				E2067241274A90A3007A5EEC /* Memo.xcdatamodeld in Sources */,
+				E20672532753D498007A5EEC /* MemoListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
