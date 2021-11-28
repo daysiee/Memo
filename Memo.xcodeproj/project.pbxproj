@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E2067235274A90A3007A5EEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2067234274A90A3007A5EEC /* AppDelegate.m */; };
 		E2067238274A90A3007A5EEC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2067237274A90A3007A5EEC /* SceneDelegate.m */; };
-		E206723B274A90A3007A5EEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E206723A274A90A3007A5EEC /* ViewController.m */; };
 		E206723E274A90A3007A5EEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E206723C274A90A3007A5EEC /* Main.storyboard */; };
 		E2067241274A90A3007A5EEC /* Memo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E206723F274A90A3007A5EEC /* Memo.xcdatamodeld */; };
 		E2067243274A90A5007A5EEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2067242274A90A5007A5EEC /* Assets.xcassets */; };
@@ -23,8 +22,6 @@
 		E2067234274A90A3007A5EEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E2067236274A90A3007A5EEC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		E2067237274A90A3007A5EEC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		E2067239274A90A3007A5EEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E206723A274A90A3007A5EEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E206723D274A90A3007A5EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2067240274A90A3007A5EEC /* Memo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Memo.xcdatamodel; sourceTree = "<group>"; };
 		E2067242274A90A5007A5EEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,8 +64,6 @@
 				E2067234274A90A3007A5EEC /* AppDelegate.m */,
 				E2067236274A90A3007A5EEC /* SceneDelegate.h */,
 				E2067237274A90A3007A5EEC /* SceneDelegate.m */,
-				E2067239274A90A3007A5EEC /* ViewController.h */,
-				E206723A274A90A3007A5EEC /* ViewController.m */,
 				E206723C274A90A3007A5EEC /* Main.storyboard */,
 				E2067242274A90A5007A5EEC /* Assets.xcassets */,
 				E2067244274A90A5007A5EEC /* LaunchScreen.storyboard */,
@@ -150,7 +145,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2067249274A90A5007A5EEC /* main.m in Sources */,
-				E206723B274A90A3007A5EEC /* ViewController.m in Sources */,
 				E2067235274A90A3007A5EEC /* AppDelegate.m in Sources */,
 				E2067238274A90A3007A5EEC /* SceneDelegate.m in Sources */,
 				E2067241274A90A3007A5EEC /* Memo.xcdatamodeld in Sources */,
